@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <main>
+        <!--===== SIGNUP =====-->
+        <section class="signup section" id="signup">
+            <h2 class="section-title">"Welcome! Let's Connect!"</h2>
+
+            <div class="signup__container bd-grid">
+                <div class="signup__content">
+                </div>
+
+                <form action="#" class="signup__form">
+                    <div class="signup__group">
+                        <div class="signup__field">
+                            <label for="firstName" class="signup__label">First Name</label>
+                            <input type="text" id="firstName" class="signup__input" required>
+                        </div>
+                        <div class="signup__field">
+                            <label for="lastName" class="signup__label">Last Name</label>
+                            <input type="text" id="lastName" class="signup__input" required>
+                        </div>
+                    </div>
+
+                    <div class="signup__field">
+                        <label for="email" class="signup__label">Email</label>
+                        <input type="email" id="email" class="signup__input" required>
+                    </div>
+
+                    <div class="signup__group">
+                        <div class="signup__field">
+                            <label for="password" class="signup__label">Password</label>
+                            <input type="password" id="password" class="signup__input" required>
+                        </div>
+                        <div class="signup__field">
+                            <label for="confirmPassword" class="signup__label">Confirm Password</label>
+                            <input type="password" id="confirmPassword" class="signup__input" required>
+                        </div>
+                    </div>
+
+                    <div class="signup__group">
+                        <div class="signup__field">
+                            <label for="phone" class="signup__label">Phone Number</label>
+                            <input type="tel" id="phone" class="signup__input" required>
+                        </div>
+                        <div class="signup__field">
+                            <label for="dob" class="signup__label">Date of Birth</label>
+                            <input type="date" id="dob" class="signup__input" required>
+                        </div>
+                    </div>
+
+                    <div class="signup__field">
+                        <label for="gender" class="signup__label">Gender</label>
+                        <select id="gender" class="signup__input" required>
+                            <option value="">Select Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="signup__field">
+                        <label for="address1" class="signup__label">Address Line 1</label>
+                        <input type="text" id="address1" class="signup__input" required>
+                    </div>
+
+                    <div class="signup__field">
+                        <label for="address2" class="signup__label">Address Line 2</label>
+                        <input type="text" id="address2" class="signup__input">
+                    </div>
+
+                    <div class="signup__group">
+                        <div class="signup__field">
+                            <label for="city" class="signup__label">City</label>
+                            <input type="text" id="city" class="signup__input" required>
+                        </div>
+                        <div class="signup__field">
+                            <label for="state" class="signup__label">State/Province</label>
+                            <input type="text" id="state" class="signup__input" required>
+                        </div>
+                    </div>
+
+                    <div class="signup__group">
+                        <div class="signup__field">
+                            <label for="zip" class="signup__label">Zip/Postal Code</label>
+                            <input type="text" id="zip" class="signup__input" required>
+                        </div>
+                        <div class="signup__field">
+                            <label for="country" class="signup__label">Country</label>
+                            <select id="country" class="signup__input" required>
+                                <option value="">Select Country</option>
+                                <option value="us">India</option>
+                                <option value="ca">Canada</option>
+                                <option value="uk">United Kingdom</option>
+                                
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="signup__field">
+                        <label for="bio" class="signup__label">Bio</label>
+                        <textarea id="bio" class="signup__input signup__textarea" placeholder="Tell us about yourself" required></textarea>
+                    </div>
+
+                    <div class="signup__checkbox">
+                        <input type="checkbox" id="terms" required>
+                        <label for="terms">I agree to the Terms and Conditions</label>
+                    </div>
+
+                    <button type="submit" class="signup__button button">Create Account</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
